@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Komunitas Bising Nasional (KBN)</title>
+  <meta name="description" content="Komunitas Bising Nasional (KBN) adalah wadah nasional bagi pecinta, pelaku, dan pemerhati budaya bising, audio, dan ekspresi kreatif di Indonesia." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --secondary: #2563eb;
+      --accent: #22c55e;
+      --bg: #f8fafc;
+      --text: #1e293b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #020617);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 15px;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--secondary);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--secondary);
+    }
+
+    .cta {
+      background: var(--secondary);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 24px;
+    }
+
+    .cta h2 {
+      color: white;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      background: white;
+      color: var(--secondary);
+      padding: 14px 30px;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #020617;
+      color: #cbd5f5;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 80px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Komunitas Bising Nasional</h1>
+    <p>Wadah nasional bagi pecinta, pelaku, dan pemerhati budaya bising, audio, dan ekspresi kreatif di Indonesia.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#visi">Visi & Misi</a></li>
+      <li><a href="#program">Program</a></li>
+      <li><a href="#bergabung">Bergabung</a></li>
+    </ul>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang KBN</h2>
+    <p>
+      Komunitas Bising Nasional (KBN) adalah komunitas independen yang berfokus pada pengembangan, edukasi, dan apresiasi terhadap budaya bising, eksplorasi suara, serta kebebasan berekspresi dalam ranah audio dan kreativitas.
+    </p>
+  </section>
+
+  <section id="visi">
+    <h2>Visi & Misi</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Visi</h3>
+        <p>Menjadi komunitas nasional yang inklusif dan progresif dalam mengembangkan budaya bising dan eksplorasi suara di Indonesia.</p>
+      </div>
+      <div class="card">
+        <h3>Misi</h3>
+        <ul>
+          <li>Menyediakan ruang kolaborasi lintas disiplin.</li>
+          <li>Mendorong edukasi dan literasi audio.</li>
+          <li>Mendukung karya dan eksperimentasi anggota.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="program">
+    <h2>Program & Kegiatan</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Diskusi & Workshop</h3>
+        <p>Kegiatan rutin untuk berbagi pengetahuan, teknik, dan wawasan seputar audio dan budaya bising.</p>
+      </div>
+      <div class="card">
+        <h3>Rilis & Dokumentasi</h3>
+        <p>Publikasi karya anggota, dokumentasi event, dan arsip suara komunitas.</p>
+      </div>
+      <div class="card">
+        <h3>Event & Kolaborasi</h3>
+        <p>Kolaborasi dengan komunitas, seniman, dan institusi di tingkat lokal maupun nasional.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bergabung">
+    <div class="cta">
+      <h2>Bergabung Bersama KBN</h2>
+      <p>Jadilah bagian dari gerakan suara dan ekspresi kreatif nasional.</p>
+      <a href="#">Hubungi Kami</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Komunitas Bising Nasional (KBN). Seluruh hak cipta dilindungi.</p>
+  </footer>
+
+</body>
+</html>
